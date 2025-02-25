@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylep2.css">
+    <title>Search it</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm" style="background-color: #E6E6FA;">
+        <a class="navbar-brand" href="#" style="color: #4B0082; font-family: 'Poppins', sans-serif;">Gif Me</a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="Project2.html" style="color: #4B0082;">Home</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container p-5 my-5 bg-dark text-dark">
+        <form class="d-flex">
+            <input class="form-control me-2" type="text" id="searchInput" placeholder="Type It">
+            <button class="btn btn-primary" type="button" onclick="searchUsers()">Search It</button>
+        </form>
+    </div>
+ 
+    <div class="container text-center">
+        <div id="results"></div> 
+        <nav>
+            <ul id="pagination" class="pagination justify-content-center mt-3"></ul>
+        </nav> 
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
