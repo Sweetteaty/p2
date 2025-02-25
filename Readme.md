@@ -15,6 +15,3 @@ A simple web application that allows users to search for GIFs using the **Giphy 
 - **Bootstrap**
 - **JavaScript**  
 - **Giphy API**  
-
-### **1️⃣ Clone the Repository**  
-git clone https://github.com/sweetteaty/project02.git
